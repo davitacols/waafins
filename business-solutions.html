@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WAAFINS | Business Solutions</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="logo" href="index.html">WAAFINS</a>
+      <button class="menu-toggle" aria-label="Toggle navigation">Menu</button>
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li class="dropdown">
+            <a href="business-solutions.html">Business Solutions</a>
+            <div class="dropdown-content" aria-label="Business solutions list">
+              <a href="#end-of-year-accounts">End-of-Year Accounts</a>
+              <a href="#management-accounts">Management Accounts</a>
+              <a href="#bookkeeping">Bookkeeping</a>
+              <a href="#payroll-services">Payroll Services</a>
+              <a href="#self-assessment-tax-returns">Self-Assessment Tax Returns</a>
+              <a href="#corporation-tax">Corporation Tax</a>
+              <a href="#vat-returns">VAT Returns</a>
+              <a href="#business-start-ups">Business Start-ups</a>
+            </div>
+          </li>
+          <li><a href="glossary.html">A-Z Glossary</a></li>
+          <li><a href="resources.html">Resources</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="slogan">Business Solutions</div>
+      <h1>Complete accounting and compliance support</h1>
+      <p>From bookkeeping to corporation tax, our services are structured to keep your business compliant and financially informed all year round.</p>
+    </section>
+
+    <section class="grid">
+      <article id="end-of-year-accounts" class="card">
+        <h2>End-of-Year Accounts</h2>
+        <p>Incorporated companies are legally required to prepare and submit annual accounts to Companies House and HMRC. We handle this duty diligently, always prioritising your business's best interests.</p>
+      </article>
+
+      <article id="management-accounts" class="card">
+        <h2>Management Accounts</h2>
+        <p>Monthly management accounts help you track performance, monitor KPIs, and make informed decisions with confidence.</p>
+      </article>
+
+      <article id="bookkeeping" class="card">
+        <h2>Bookkeeping</h2>
+        <p>Accurate transaction records are essential for statutory compliance and effective business management. We ensure your records are robust, compliant, and decision-ready.</p>
+      </article>
+
+      <article id="payroll-services" class="card">
+        <h2>Payroll Services</h2>
+        <p>Our payroll service is tailored to your business, not a one-size-fits-all package.</p>
+        <ul class="clean">
+          <li>Weekly, fortnightly, monthly, and annual payroll processing</li>
+          <li>All external returns and internal reports</li>
+          <li>BACS, cash, and cheque payments</li>
+          <li>Tax, National Insurance, SSP, SMP, Student Loan, and related calculations</li>
+          <li>P11D and Class 1A computations</li>
+          <li>End-of-year reporting and reconciliation</li>
+          <li>HMRC e-filing compliance, including RTI</li>
+          <li>Accurate and timely employee payments</li>
+        </ul>
+      </article>
+
+      <article id="self-assessment-tax-returns" class="card">
+        <h2>Self-Assessment Tax Returns</h2>
+        <p>For individuals outside PAYE, we prepare and submit accurate returns so your obligations are met efficiently and on time.</p>
+      </article>
+
+      <article id="corporation-tax" class="card">
+        <h2>Corporation Tax</h2>
+        <p>We ensure your company pays only what is due while remaining fully compliant, helping you retain more of your profits.</p>
+      </article>
+
+      <article id="vat-returns" class="card">
+        <h2>VAT Returns</h2>
+        <p>Timely and accurate VAT filing helps you avoid penalties and supports cash flow, especially where repayments are due.</p>
+      </article>
+
+      <article id="business-start-ups" class="card">
+        <h2>Business Start-ups</h2>
+        <p>Launching a business involves immediate legal and compliance duties. We guide you from setup through ongoing administration so you can focus on growth.</p>
+      </article>
+    </section>
+
+    <section class="contact-section card">
+      <h2>Contact Us</h2>
+      <p>Tell us which service you need and we will respond promptly.</p>
+      <form>
+        <label for="name">Full Name</label>
+        <input id="name" name="name" type="text" required />
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required />
+
+        <label for="business">Business Name</label>
+        <input id="business" name="business" type="text" />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send Enquiry</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    WAAFINS | Professional support for small businesses and growing firms.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
